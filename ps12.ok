@@ -1,0 +1,15 @@
+{
+  "name": "PS12 Notebook",
+  "endpoint": "cal/econ101b/fa18/PS12",
+  "src": [
+    "PS12.ipynb"
+  ],
+  "tests": {
+      "ok_tests/q*.py": "ok_test"
+  },
+  "protocols": [
+      "file_contents",
+      "grading",
+      "backup"
+  ]
+}
